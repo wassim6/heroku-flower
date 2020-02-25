@@ -1,1 +1,1 @@
-web: flower --port=$PORT --broker="$BROKER_URL"
+web: flower -A celery_core --port=$PORT --broker="$BROKER_URL"
